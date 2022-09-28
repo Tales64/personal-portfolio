@@ -1,0 +1,53 @@
+* {
+    background-color: aquamarine;
+
+}
+
+:root{
+    --main: blue;
+
+    --secondary: gold;
+
+    --tersh: rgb(15, 3, 116); 
+
+}
+
+
+h1 {
+
+}
+
+
+.box{
+    /* PLACE HOLDER NUMBERS AND MEASURMENTS 
+    the 5 boxes in the body of the html*/
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    background-color: var(--secondary);
+    border-style: ridge;
+    border-color: var(--tersh);
+    border-width: 10px;
+    /* optional rounded edges */
+    border-radius: 10px;
+    
+    
+}
+/* biggest box of the page */
+.box1{
+
+}
+
+.card{
+    height: 70px;
+    width: 140px;
+    background-color: var(--tersh);
+
+}
+
+.sidebar{ 
+    display: flexbox
+    border-right: 5px;
+    border-right-style: solid;
+    border-color: var(--tersh);
+}
