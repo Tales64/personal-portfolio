@@ -1,7 +1,7 @@
-* {
+/* * {
     background-color: aquamarine;
 
-}
+} */
 
 :root{
     --main: blue;
@@ -16,38 +16,35 @@
 
 
 }
+
+.header{
+    padding: 10px;
+    background-color: var(--secondary);
+    height: 10vh;
+    width: 100%;
+}
+
 .body {
     background-color: var(--backdrop);
 }
-.header{
-    padding: 10px;
-
-}
 
 
-.header h1 {
- font-size: 100px;
- display: inline-block;
+
+.h1 {
+ font-size: 200px;
 }
 
 h3{
     font-size: 100px;
 }
 
-nav{background-color: var(--secondary);
-height: 10vh;
-    width: 100%;
-}
 
-.nav{
-    
-}
 
 .container{
     display: flex;
     flex-direction: column;
-    min-width: 80vh;
-    min-height: 100px;
+    min-width: 80vw;
+    min-height: 100vh;
     /* will delet when finished */
     background-color: var(--tersh);
 }
@@ -82,8 +79,10 @@ height: 10vh;
     border-color: var(--backdrop);
 }
 .box-img{
-    width: 100%;
+    max-width: 400px;
+    max-height: 200px;
+    
 }
-.box-card{
+/* .box-card{
     width: 140px;
-}
+} */
